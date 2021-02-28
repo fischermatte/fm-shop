@@ -3,8 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  const email =
-  res.render('index', { title: 'Express' });
+  const headers = JSON.stringify(req.headers)
+  res.render('index', { title: 'Express', headers });
 });
 
 module.exports = router;
