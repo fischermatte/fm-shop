@@ -1,0 +1,6 @@
+{
+  "name": "inno-azure-webapp",
+  "version": "0.0.1",
+  "description": "sample app",
+  "main": "server.js"
+}
